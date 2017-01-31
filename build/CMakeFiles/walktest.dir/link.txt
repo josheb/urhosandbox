@@ -1,0 +1,1 @@
+/usr/bin/c++    -Wno-invalid-offsetof -march=native -ffast-math -m64 -pthread -O3 -DNDEBUG    CMakeFiles/walktest.dir/main.cpp.o CMakeFiles/walktest.dir/Character.cpp.o  -o bin/walktest -rdynamic /usr/local/lib/Urho3D/libUrho3D.a -ldl -lrt -lGL ../libRakNetLibStatic.a 
