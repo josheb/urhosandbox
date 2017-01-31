@@ -1,0 +1,9 @@
+<material>
+	<technique name="Techniques/DiffNormal.xml"/>
+	<texture name="Textures/Bags-Tex.png" unit="diffuse"/>
+	<texture name="Textures/Bags-normal.png" unit="normal"/>
+	<parameter name="MatDiffColor" value="0.149824 0.121267 0.0820382 1"/>
+	<parameter name="MatSpecColor" value="0 0 0 10"/>
+	<cull value="none"/>
+	<shadowcull value="none"/>
+</material>

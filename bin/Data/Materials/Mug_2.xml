@@ -1,0 +1,8 @@
+<material>
+	<technique name="Techniques/DiffNormalSpec.xml"/>
+	<texture name="Textures/mug2.png" unit="diffuse"/>
+	<texture name="Textures/mug2_norm.png" unit="normal"/>
+	<texture name="Textures/mug2_spec.png" unit="specular"/>
+	<parameter name="MatDiffColor" value="0.593407 0.621029 0.708333 1"/>
+	<parameter name="MatSpecColor" value="0.75 0.607149 0.439239 65"/>
+</material>

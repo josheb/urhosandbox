@@ -1,0 +1,9 @@
+<material>
+	<technique name="Techniques/DiffNormal.xml"/>
+	<texture name="Textures/caucasian-male-young.png" unit="diffuse"/>
+	<texture name="Textures/Body-Normal.png" unit="normal"/>
+	<parameter name="MatDiffColor" value="0.56 0.378 0.245 1"/>
+	<parameter name="MatSpecColor" value="0.25 0.25 0.25 10"/>
+	<cull value="none"/>
+	<shadowcull value="none"/>
+</material>

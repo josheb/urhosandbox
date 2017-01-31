@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<particleeffect>
+	<material name="Materials/Particle.xml" />
+	<numparticles value="50" />
+	<updateinvisible enable="false" />
+	<relative enable="false" />
+	<scaled enable="true" />
+	<sorted enable="false" />
+	<fixedscreensize enable="true" />
+	<animlodbias value="0" />
+	<emittertype value="Sphere" />
+	<emittersize value="0 0 0" />
+	<direction min="0 0 0" max="0 0 0" />
+	<constantforce value="0 0 0" />
+	<dampingforce value="0" />
+	<activetime value="0" />
+	<inactivetime value="0" />
+	<emissionrate min="40" max="40" />
+	<particlesize min="90 90" max="90 90" />
+	<timetolive min="0.3" max="0.3" />
+	<velocity min="0" max="0" />
+	<rotation min="0" max="0" />
+	<rotationspeed min="0" max="0" />
+	<sizedelta add="0" mul="0" />
+	<faceCameraMode value="Rotate XYZ" />
+	<colorfade color="0.1 0.5 1 1" time="0" />
+	<colorfade color="1 0.63 0.45 1" time="0.5" />
+	<colorfade color="0 0 0 0" time="1" />
+</particleeffect>

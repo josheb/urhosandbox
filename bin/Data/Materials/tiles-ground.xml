@@ -1,0 +1,8 @@
+<material>
+	<technique name="Techniques/DiffNormalSpec.xml"/>
+	<texture name="Textures/tile-ground2.jpg" unit="diffuse"/>
+	<texture name="Textures/tile-ground2-norm.jpg" unit="normal"/>
+	<texture name="Textures/tile-ground2-spec.png" unit="specular"/>
+	<parameter name="MatDiffColor" value="0.64 0.64 0.64 1"/>
+	<parameter name="MatSpecColor" value="0.5 0.5 0.5 50"/>
+</material>

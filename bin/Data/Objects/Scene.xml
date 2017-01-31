@@ -1,0 +1,38 @@
+<node id="16777216">
+	<attribute name="Name" value="Scene"/>
+	<node id="16777217">
+		<attribute name="Name" value="eyebrow001Mesh"/>
+		<component id="16777216" type="AnimatedModel">
+			<attribute name="Model" value="Model;Models/eyebrow001Mesh.mdl"/>
+			<attribute name="Material" value="Material;Materials/eyebrow001.xml"/>
+		</component>
+	</node>
+	<node id="16777218">
+		<attribute name="Name" value="high-polyMesh"/>
+		<component id="16777217" type="AnimatedModel">
+			<attribute name="Model" value="Model;Models/high-polyMesh.mdl"/>
+			<attribute name="Material" value="Material;Materials/high-poly.xml"/>
+		</component>
+	</node>
+	<node id="16777219">
+		<attribute name="Name" value="male1Mesh"/>
+		<component id="16777218" type="AnimatedModel">
+			<attribute name="Model" value="Model;Models/male1Mesh.mdl"/>
+			<attribute name="Material" value="Material;Materials/male1.xml"/>
+		</component>
+	</node>
+	<node id="16777220">
+		<attribute name="Name" value="male_casualsuit03Mesh"/>
+		<component id="16777219" type="AnimatedModel">
+			<attribute name="Model" value="Model;Models/male_casualsuit03Mesh.mdl"/>
+			<attribute name="Material" value="Material;Materials/male_casualsuit03.xml"/>
+		</component>
+	</node>
+	<node id="16777221">
+		<attribute name="Name" value="short04Mesh"/>
+		<component id="16777220" type="AnimatedModel">
+			<attribute name="Model" value="Model;Models/short04Mesh.mdl"/>
+			<attribute name="Material" value="Material;Materials/short04.xml"/>
+		</component>
+	</node>
+</node>

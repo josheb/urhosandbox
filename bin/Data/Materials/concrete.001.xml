@@ -1,0 +1,7 @@
+<material>
+	<technique name="Techniques/DiffNormal.xml"/>
+	<texture name="Textures/concrete01_diff.jpg" unit="diffuse"/>
+	<texture name="Textures/concrete01_norm.jpg" unit="normal"/>
+	<parameter name="MatDiffColor" value="0.64 0.64 0.64 1"/>
+	<parameter name="MatSpecColor" value="0.179514 0.179514 0.179514 50"/>
+</material>

@@ -1,0 +1,9 @@
+<cubemap>
+    <face name="stars1.dds" />
+    <face name="stars3.dds" />
+    <face name="stars5.dds" />
+    <face name="stars6.dds" />
+    <face name="stars2.dds" />
+    <face name="stars4.dds" />
+    <quality low="0" />
+</cubemap>

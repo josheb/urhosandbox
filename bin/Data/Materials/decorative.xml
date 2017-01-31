@@ -1,0 +1,8 @@
+<material>
+	<technique name="Techniques/DiffNormalSpec.xml"/>
+	<texture name="Textures/decorative.png" unit="diffuse"/>
+	<texture name="Textures/decorative_norm.png" unit="normal"/>
+	<texture name="Textures/decorative_spec.png" unit="specular"/>
+	<parameter name="MatDiffColor" value="0.64 0.64 0.64 1"/>
+	<parameter name="MatSpecColor" value="0.307836 0.307836 0.307836 71"/>
+</material>

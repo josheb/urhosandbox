@@ -1,0 +1,7 @@
+<material>
+	<technique name="Techniques/DiffNormal.xml"/>
+	<texture name="Textures/gate-2.png" unit="diffuse"/>
+	<texture name="Textures/gate-2_norm.png" unit="normal"/>
+	<parameter name="MatDiffColor" value="0.8 0.8 0.8 1"/>
+	<parameter name="MatSpecColor" value="0.322917 0.322917 0.322917 50"/>
+</material>

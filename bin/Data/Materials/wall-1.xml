@@ -1,0 +1,7 @@
+<material>
+	<technique name="Techniques/DiffNormal.xml"/>
+	<texture name="Textures/wall-tex-1.jpg" unit="diffuse"/>
+	<texture name="Textures/wall-tex-1_norm.jpg" unit="normal"/>
+	<parameter name="MatDiffColor" value="0.64 0.64 0.64 1"/>
+	<parameter name="MatSpecColor" value="0.364583 0.364583 0.364583 72"/>
+</material>

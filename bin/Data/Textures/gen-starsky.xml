@@ -1,0 +1,9 @@
+<cubemap>
+    <face name="gen-stars1.dds" />
+    <face name="gen-stars3.dds" />
+    <face name="gen-stars5.dds" />
+    <face name="gen-stars6.dds" />
+    <face name="gen-stars2.dds" />
+    <face name="gen-sun1.dds" />
+    <quality low="0" />
+</cubemap>

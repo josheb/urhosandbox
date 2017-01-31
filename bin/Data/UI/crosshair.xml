@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<element type="Sprite" style="Sprite">
+	<attribute name="Name" value="crosshair" />
+	<attribute name="Position" value="-1 -1" />
+	<attribute name="Size" value="2 2" />
+	<attribute name="Texture" value="Texture2D;Textures/dot.png" />
+	<attribute name="Image Rect" value="0 0 256 256" />
+	<attribute name="Horiz Alignment" value="Center" />
+	<attribute name="Vert Alignment" value="Center" />
+</element>

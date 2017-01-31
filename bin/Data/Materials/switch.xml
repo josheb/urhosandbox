@@ -1,0 +1,8 @@
+<material>
+	<technique name="Techniques/DiffNormalSpec.xml"/>
+	<texture name="Textures/switch.png" unit="diffuse"/>
+	<texture name="Textures/switch_norm.png" unit="normal"/>
+	<texture name="Textures/switch_spec.png" unit="specular"/>
+	<parameter name="MatDiffColor" value="0.74 0.74 0.74 1"/>
+	<parameter name="MatSpecColor" value="0.59375 0.59375 0.59375 50"/>
+</material>

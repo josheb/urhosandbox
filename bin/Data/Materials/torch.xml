@@ -1,0 +1,7 @@
+<material>
+	<technique name="Techniques/DiffNormal.xml"/>
+	<texture name="Textures/torch.JPG" unit="diffuse"/>
+	<texture name="Textures/torch_norm.JPG" unit="normal"/>
+	<parameter name="MatDiffColor" value="0.431861 0.581395 0.477383 1"/>
+	<parameter name="MatSpecColor" value="0.291723 0.355413 0.313538 190"/>
+</material>

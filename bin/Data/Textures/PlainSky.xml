@@ -1,0 +1,9 @@
+<cubemap>
+    <face name="plainsky-sides.dds" />
+    <face name="plainsky-sides.dds" />
+    <face name="plainsky-top.dds" />
+    <face name="plainsky-bottom.dds" />
+    <face name="plainsky-sides.dds" />
+    <face name="plainsky-sides.dds" />
+    <quality low="0" />
+</cubemap>
