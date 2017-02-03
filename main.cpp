@@ -223,7 +223,7 @@ void MyApp::Start()
 
     // Set a capsule shape for collision
     CollisionShape* shape = objectNode->CreateComponent<CollisionShape>();
-    shape->SetCapsule(0.9f, 4.0f, Vector3(0.0f, 2.0f, 0.0f));
+    shape->SetCapsule(2.5f, 8.0f, Vector3(0.0f, 4.0f, 0.0f));
 
     // Create the character logic component, which takes care of steering the rigidbody
     // Remember it so that we can set the controls. Use a WeakPtr because the scene hierarchy already owns it

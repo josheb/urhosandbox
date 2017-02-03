@@ -6,9 +6,9 @@
 	<attribute name="Snap Threshold" value="5" />
 	<attribute name="Elapsed Time" value="0" />
 	<attribute name="Next Replicated Node ID" value="26" />
-	<attribute name="Next Replicated Component ID" value="76" />
-	<attribute name="Next Local Node ID" value="16781597" />
-	<attribute name="Next Local Component ID" value="16781827" />
+	<attribute name="Next Replicated Component ID" value="78" />
+	<attribute name="Next Local Node ID" value="16781761" />
+	<attribute name="Next Local Component ID" value="16782175" />
 	<attribute name="Variables" />
 	<attribute name="Variable Names" value="" />
 	<component type="Octree" id="1" />
@@ -18,9 +18,10 @@
 	</component>
 	<component type="DynamicNavigationMesh" id="73">
 		<attribute name="Tile Size" value="64" />
-		<attribute name="Cell Height" value="0.1" />
-		<attribute name="Agent Height" value="4" />
-		<attribute name="Agent Max Slope" value="65" />
+		<attribute name="Cell Size" value="0.1" />
+		<attribute name="Cell Height" value="0.05" />
+		<attribute name="Agent Height" value="8" />
+		<attribute name="Agent Max Slope" value="80" />
 		<attribute name="Bounding Box Padding" value="10 10 10" />
 		<attribute name="Partition Type" value="monotone" />
 		<attribute name="Draw OffMeshConnections" value="true" />
@@ -149,6 +150,10 @@
 			<attribute name="Physics Rotation" value="0.984808 0.173648 0 0" />
 			<attribute name="Physics Position" value="-2.25458 59.7826 -37.1249" />
 		</component>
+		<component type="OffMeshConnection" id="76">
+			<attribute name="Endpoint NodeID" value="5" />
+			<attribute name="Radius" value="4" />
+		</component>
 	</node>
 	<node id="16781335">
 		<attribute name="Is Enabled" value="true" />
@@ -175,6 +180,10 @@
 		<component type="RigidBody" id="15">
 			<attribute name="Physics Rotation" value="1 0 0 0" />
 			<attribute name="Physics Position" value="-1.64587 76.8496 -89.0824" />
+		</component>
+		<component type="OffMeshConnection" id="77">
+			<attribute name="Endpoint NodeID" value="6" />
+			<attribute name="Radius" value="3" />
 		</component>
 	</node>
 	<node id="6">
@@ -570,6 +579,7 @@
 			<attribute name="player" value="0" />
 			<attribute name="Moving" value="false" />
 			<attribute name="pathDelta" value="1000" />
+			<attribute name="rayDelta" value="1000" />
 			<attribute name="navMesh" value="73" />
 		</component>
 		<component type="AnimatedModel" id="16781826">
@@ -1251,5 +1261,59 @@
 				</node>
 			</node>
 		</node>
+	</node>
+	<node id="16781707">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="122.266 52.004 -140.835" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="60 20 1" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="16782060">
+			<attribute name="Model" value="Model;Models/Box.mdl" />
+			<attribute name="Material" value="Material;Materials/concrete.xml" />
+		</component>
+		<component type="RigidBody" id="16782106">
+			<attribute name="Physics Rotation" value="1 0 0 0" />
+			<attribute name="Physics Position" value="122.266 52.004 -140.835" />
+		</component>
+		<component type="CollisionShape" id="16782107" />
+	</node>
+	<node id="16781718">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="122.266 51.5914 -175.941" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="60 20 1" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="16782082">
+			<attribute name="Model" value="Model;Models/Box.mdl" />
+			<attribute name="Material" value="Material;Materials/concrete.xml" />
+		</component>
+		<component type="CollisionShape" id="16782108" />
+		<component type="RigidBody" id="16782109">
+			<attribute name="Physics Rotation" value="1 0 0 0" />
+			<attribute name="Physics Position" value="122.266 51.5914 -175.941" />
+		</component>
+	</node>
+	<node id="16781720">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="122.266 51.5914 -158.068" />
+		<attribute name="Rotation" value="0.92388 0 0.382683 0" />
+		<attribute name="Scale" value="60 20 1" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="16782084">
+			<attribute name="Model" value="Model;Models/Box.mdl" />
+			<attribute name="Material" value="Material;Materials/concrete.xml" />
+		</component>
+		<component type="CollisionShape" id="16782110" />
+		<component type="RigidBody" id="16782111">
+			<attribute name="Physics Rotation" value="0.92388 0 0.382683 0" />
+			<attribute name="Physics Position" value="122.266 51.5914 -158.068" />
+		</component>
 	</node>
 </scene>

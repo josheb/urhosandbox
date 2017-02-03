@@ -594,13 +594,33 @@ Ws2tcpip.h
 
 ../raknet/XBox360Includes.h
 
-/home/tabasco/dev/unet/Character.h
+/home/vince/.dev/urhosandbox/Character.cpp
+Urho3D/Core/Context.h
+-
+Urho3D/Graphics/AnimationController.h
+-
+Urho3D/IO/MemoryBuffer.h
+-
+Urho3D/Physics/PhysicsEvents.h
+-
+Urho3D/Physics/PhysicsWorld.h
+-
+Urho3D/Physics/RigidBody.h
+-
+Urho3D/Scene/Scene.h
+-
+Urho3D/Scene/SceneEvents.h
+-
+Character.h
+/home/vince/.dev/urhosandbox/Character.h
+
+/home/vince/.dev/urhosandbox/Character.h
 Urho3D/Input/Controls.h
 -
 Urho3D/Scene/LogicComponent.h
 -
 
-/home/tabasco/dev/unet/main.cpp
+/home/vince/.dev/urhosandbox/main.cpp
 Urho3D/Core/CoreEvents.h
 -
 Urho3D/Core/ProcessUtils.h
@@ -698,13 +718,13 @@ RakPeer.h
 RakPeerInterface.h
 -
 main.h
-/home/tabasco/dev/unet/main.h
+/home/vince/.dev/urhosandbox/main.h
 Character.h
-/home/tabasco/dev/unet/Character.h
+/home/vince/.dev/urhosandbox/Character.h
 cstdio
 -
 
-/home/tabasco/dev/unet/main.h
+/home/vince/.dev/urhosandbox/main.h
 Urho3D/Engine/Application.h
 -
 Urho3D/Engine/Console.h
@@ -718,7 +738,7 @@ cstdlib
 map
 -
 Character.h
-/home/tabasco/dev/unet/Character.h
+/home/vince/.dev/urhosandbox/Character.h
 cstdio
 -
 
@@ -1235,6 +1255,12 @@ cstdlib
 /usr/local/include/Urho3D/Core/Object.h
 ../Core/StringUtils.h
 /usr/local/include/Urho3D/Core/StringUtils.h
+
+/usr/local/include/Urho3D/IO/MemoryBuffer.h
+../IO/Deserializer.h
+/usr/local/include/Urho3D/IO/Deserializer.h
+../IO/Serializer.h
+/usr/local/include/Urho3D/IO/Serializer.h
 
 /usr/local/include/Urho3D/IO/Serializer.h
 ../Container/HashMap.h
